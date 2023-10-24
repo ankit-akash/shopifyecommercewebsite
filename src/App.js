@@ -1,21 +1,26 @@
+import { BrowserRouter } from "react-router-dom/dist";
 import "./App.css";
-import Navbar from "./components/Navbar/navbar";
-import Intro from "./components/Intro/intro";
-import Skills from "./components/Skills/skills";
-import Works from "./components/Works/works";
-import Contact from "./components/Contact/contact";
-import Footer from "./components/Footer/footer";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/header/Header";
+import Hero from "./components/header/Hero/Hero";
+import Products from "./components/Products/Products";
+import Slider from "./components/Slider/Slider";
+import Testimonials from "./components/Testimonials/Testimonials";
+import Virtual from "./components/Virtual/Virtual";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Intro />
-      <Skills />
-      <Works />
-      <Contact />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Header />
+        <Hero />
+        <Slider />
+        <Virtual />
+        <Products />
+        <Testimonials />
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 
