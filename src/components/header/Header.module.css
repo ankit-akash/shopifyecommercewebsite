@@ -1,0 +1,82 @@
+.container {
+  padding: 1.5rem;
+  display: flex;
+}
+.Logo {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  gap: 1rem;
+}
+.Logo > img {
+  width: 4rem;
+  height: 4rem;
+}
+.Logo > span {
+  font-weight: 800;
+  font-size: x-large;
+}
+.right {
+  gap: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  gap: 2rem;
+  font-weight: 500;
+  list-style: none;
+}
+.menu > li:hover {
+  color: rgb(224, 235, 6);
+  cursor: pointer;
+  font-weight: 500;
+}
+.search {
+  width: 7rem;
+  outline: none;
+  height: 30%;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+.cart {
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+.bars {
+  display: none;
+}
+@media screen and (max-width: 856px) {
+  .search {
+    display: none;
+  }
+  .right {
+    gap: 1rem;
+  }
+}
+@media screen and (max-width: 640px) {
+  .right {
+    position: absolute;
+    right: 2rem;
+    z-index: 9999;
+    background: white;
+    color: black;
+    border-radius: 5px;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .menu {
+    flex-direction: column;
+    margin-left: -2rem;
+    display: none;
+  }
+  .bars {
+    display: block;
+  }
+  .search {
+    display: none;
+  }
+}
