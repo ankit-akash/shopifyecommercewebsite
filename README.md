@@ -18,10 +18,10 @@ You can explore a live demo of my project here (https://shopifyecommercewebsite.
 If you'd like to run this project locally, follow these steps:
 
 1. Clone this repository:
-> git clone https://github.com/your-username/your-repo.git
+> git clone https://github.com/ankit-akash/shopifyecommercewebsite.git
 
 2. Change to the project directory:
-> cd your-repo
+> cd shopifyecommercewebsite
 
 3. Install the required dependencies:
 > npm install
