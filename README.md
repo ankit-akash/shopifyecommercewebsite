@@ -1,7 +1,7 @@
 # shopifyecommercewebsite
 >Link : https://shopifyecommercewebsite.web.app/
 
-This is a frontend e-commerce website project, built using React.js, HTML, and CSS. It is a user-friendly online shopping experience with a mobile-responsive design and has an animation design.
+This is a frontend e-commerce website is built with React JS, using a component-based approach for easy website development. It features responsive design and utilizes React Styled components for styling. React Router is employed for navigation, creating a smooth single-page application experience without page refreshing. Key components include Header, Slider, Virtual, Product, Testimonials, and Footer. The Slider component displays items and groups similar products via props. This website is fully responsive for computer screens, tablets, and mobile views.
 
 ## Features
 [a] Product Catalog: I've created an extensive catalog of products, making it easy for users to browse and search.
