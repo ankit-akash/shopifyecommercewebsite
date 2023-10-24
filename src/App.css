@@ -1,0 +1,38 @@
+:root {
+  --black: #343434;
+  --bg:    background-color:#0f0e13;
+  background-image:  
+     radial-gradient(at 0% 0%, rgb(246, 238, 98) 0, transparent 50%), 
+    radial-gradient(at 50% 0%, rgb(136, 160, 233) 0, transparent 50%), 
+    radial-gradient(at 100% 0%, rgb(245, 131, 171) 0, transparent 50%); 
+    
+
+
+  --shadow1: 0px 13px 48px -1px rgba(0, 0, 0, 0.25);
+  --shadow2: 0px 13px 46px rgba(0, 0, 0, 0.13);
+  --pink: #fe956f;
+  
+}
+.App {
+  display: flex;
+  flex-direction: column;
+}
+::-webkit-scrollbar {
+  height: 12px;
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 1ex;
+}
+
+::-webkit-scrollbar-thumb {
+  background: skyblue;
+  border-radius: 1ex;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
