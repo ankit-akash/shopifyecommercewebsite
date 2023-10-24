@@ -11,8 +11,7 @@ This is a frontend e-commerce website project, built using React.js, HTML, and C
 [c] Responsive Design: The website is designed to work seamlessly on both desktop and mobile devices.
 
 ## Demo
-You can explore a live demo of my project here (https://shopifyecommercewebsite.web.app/
-).
+You can explore a live demo of my project here `https://shopifyecommercewebsite.web.app/`
 
 ## Installation
 If you'd like to run this project locally, follow these steps:
